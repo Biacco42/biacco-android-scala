@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APPLICATION_ID	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final String APPLICATION_ID = "com.biacco.app.android_scala_template";$/;"	f	class:BuildConfig
+BUILD_TYPE	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final String BUILD_TYPE = "";$/;"	f	class:BuildConfig
+Build	.\project\build.scala	/^object Build extends android.AutoBuild$/;"	o
+BuildConfig	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^public final class BuildConfig {$/;"	c
+DEBUG	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final boolean DEBUG = true;$/;"	f	class:BuildConfig
+FLAVOR	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final String FLAVOR = "";$/;"	f	class:BuildConfig
+MainActivity	.\src\main\scala\com\biacco\app\android_scala_template\MainActivity.scala	/^class MainActivity extends Activity with TypedFindView {$/;"	c
+MainActivityTest	.\src\androidTest\java\com\biacco\app\android_scala_template\MainActivityTest.java	/^    public MainActivityTest() {$/;"	m	class:MainActivityTest
+MainActivityTest	.\src\androidTest\java\com\biacco\app\android_scala_template\MainActivityTest.java	/^public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {$/;"	c
+R	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^public final class R {$/;"	c
+TR	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^object TR {$/;"	o
+TypedFindView	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^trait TypedFindView extends Any {$/;"	t
+TypedLayout	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^case class TypedLayout[A](id: Int)$/;"	r
+TypedResource	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^case class TypedResource[A](id: Int)$/;"	r
+TypedResource	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^object TypedResource {$/;"	o
+VERSION_CODE	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final int VERSION_CODE = 1;$/;"	f	class:BuildConfig
+VERSION_NAME	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^  public static final String VERSION_NAME = "1.0";$/;"	f	class:BuildConfig
+a	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  implicit class TypedActivity(val a: Activity) extends AnyVal with TypedFindView {$/;"	V
+android.app.Activity	.\src\main\scala\com\biacco\app\android_scala_template\MainActivity.scala	/^import android.app.Activity$/;"	i
+android.app.{Activity,Dialog}	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^import android.app.{Activity,Dialog}$/;"	i
+android.os.Bundle	.\src\main\scala\com\biacco\app\android_scala_template\MainActivity.scala	/^import android.os.Bundle$/;"	i
+android.view.{View,ViewGroup,LayoutInflater}	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^import android.view.{View,ViewGroup,LayoutInflater}$/;"	i
+app_name	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^        public static final int app_name=0x7f040000;$/;"	f	class:R.string
+attr	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^    public static final class attr {$/;"	c	class:R
+com.biacco.app.android_scala_template	.\src\androidTest\java\com\biacco\app\android_scala_template\MainActivityTest.java	/^package com.biacco.app.android_scala_template;$/;"	p
+com.biacco.app.android_scala_template	.\src\main\scala\com\biacco\app\android_scala_template\MainActivity.scala	/^package com.biacco.app.android_scala_template$/;"	p
+com.biacco.app.android_scala_template	.\target\android\generated\source\com\biacco\app\android_scala_template\BuildConfig.java	/^package com.biacco.app.android_scala_template;$/;"	p
+com.biacco.app.android_scala_template	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^package com.biacco.app.android_scala_template;$/;"	p
+com.biacco.app.android_scala_template	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^package com.biacco.app.android_scala_template$/;"	p
+d	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  implicit class TypedDialog(val d: Dialog) extends AnyVal with TypedFindView {$/;"	V
+drawable	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^    public static final class drawable {$/;"	c	class:R
+findView	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  def findView[A](tr: TypedResource[A]): A = findViewById(tr.id).asInstanceOf[A]$/;"	m
+findViewById	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def findViewById(id: Int) = a.findViewById(id)$/;"	m
+findViewById	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def findViewById(id: Int) = d.findViewById(id)$/;"	m
+findViewById	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def findViewById(id: Int) = v.findViewById(id)$/;"	m
+ic_launcher	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^        public static final int ic_launcher=0x7f020000;$/;"	f	class:R.drawable
+inflate	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def inflate[A](tl: TypedLayout[A]) = l.inflate(tl.id, null).asInstanceOf[A]$/;"	m
+inflate	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def inflate[A](tl: TypedLayout[A], c: ViewGroup) =$/;"	m
+inflate	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    def inflate[A](tl: TypedLayout[A], c: ViewGroup, b: Boolean) =$/;"	m
+l	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  implicit class TypedLayoutInflater(val l: LayoutInflater) extends AnyVal {$/;"	V
+layout	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^    public static final class layout {$/;"	c	class:R
+layout	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  object layout {$/;"	o
+main	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^        public static final int main=0x7f030000;$/;"	f	class:R.layout
+main	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^    val main = TypedLayout[android.widget.LinearLayout](R.layout.main)$/;"	V
+string	.\target\android\generated\source\com\biacco\app\android_scala_template\R.java	/^    public static final class string {$/;"	c	class:R
+v	.\target\android\generated\source\com\biacco\app\android_scala_template\TR.scala	/^  implicit class TypedView(val v: View) extends AnyVal with TypedFindView {$/;"	V

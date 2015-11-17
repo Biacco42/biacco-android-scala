@@ -1,0 +1,7 @@
+target/
+project/project
+bin/
+gen/
+.idea/
+local.properties
+.DS_Store
